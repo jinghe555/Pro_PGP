@@ -9,7 +9,7 @@ from gmssl.sm4 import CryptSM4,SM4_ENCRYPT,SM4_DECRYPT
 #初始化会话密钥k
 k=b'315butlj26hvv313'
 #M：消息
-M=b'biblebuild'
+M=b'bbbu77b'
 crypt_sm4=CryptSM4()
 #CCB模式使用会话密钥加密消息M，加密的结果为encrypt_value
 crypt_sm4.set_key(k,SM4_ENCRYPT)
