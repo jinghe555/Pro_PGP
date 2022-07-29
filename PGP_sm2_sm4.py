@@ -11,7 +11,7 @@ k=b'315butlj26hvv313'
 #M：消息
 M=b'bbbu77b'
 crypt_sm4=CryptSM4()
-#CCB模式使用会话密钥加密消息M，加密的结果为encrypt_value
+#ECB模式使用会话密钥加密消息M，加密的结果为encrypt_value
 crypt_sm4.set_key(k,SM4_ENCRYPT)
 encrypt_value=crypt_sm4.crypt_ecb(M)
 print("加密消息结果:",encrypt_value)
